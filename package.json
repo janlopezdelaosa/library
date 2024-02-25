@@ -1,13 +1,21 @@
 {
   "name": "library",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.1.0",
+  "description": "ESModules and CommonJS lib",
+  "module": "dist/calc.esm.js",
+  "main": "dist/calc.cjs.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "github.com/janlopezdelaosa/library.git"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "vite": "^5.1.4"
   }
